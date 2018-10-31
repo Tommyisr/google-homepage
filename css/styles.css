@@ -1,0 +1,45 @@
+.nav {
+    float: right; 
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: 50px, 50px, 20px, 20px, 20px;
+    align-items: center;
+    grid-gap: 2px;
+}
+
+ .imglogo{
+    
+    width: 17px;
+    margin: 0 auto;
+    background-color: gray;
+    padding: 0 auto;
+}
+
+.imglogo:hover {
+background-color: black;
+}
+.words {
+    grid-column: 1 / 2;
+    margin: 0 auto;
+}
+.words a {
+    padding: 2px;
+}
+.bricks {
+    grid-column: 2 / 3;
+}
+
+.notifications {
+    grid-column: 3 / 4;
+}
+
+.userpic {
+    grid-column: 4 / 5;
+}
+
+.bricks, .userpic, .notifications, .words {
+    border: 1px solid red;
+    margin: 0 auto;
+    padding: 10px;
+}
+
